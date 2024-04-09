@@ -9,7 +9,7 @@ import (
 func main() {
 	// get input arguments
 	args := os.Args[1:]
-	// range over each input argument print it
+	// range over each input argument and print it
 	for _, arg := range args {
 		fmt.Println(arg)
 	}
